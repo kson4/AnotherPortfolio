@@ -1,7 +1,7 @@
 # AnotherPortfolio
 
 Java Logo image credit:
-https://seeklogo.com/vector-logo/158094/java
+https://seeklogo.com/vector-logo/158094/java \n
 HTML, JavaScript, CSS Logo image credit:
 https://www.pngegg.com/en/png-nxotz
 C++ Logo image credit:
