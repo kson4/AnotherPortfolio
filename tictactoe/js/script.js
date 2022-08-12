@@ -12,11 +12,14 @@ for (let index = 0; index < cell.length; index++) {
             if (gameFinished()) {
                 refreshGrid();
             }
-            //minmax();
-            computerMove();
-            if (gameFinished()) {
-                refreshGrid();
+            else {
+                //minmax();
+                computerMove();
+                if (gameFinished()) {
+                    refreshGrid();
+                }
             }
+            
         }
         else {
             console.log("already clicked");
@@ -30,6 +33,7 @@ function refreshGrid() {
         cells[index].style.backgroundColor = null;
         cells[index].setAttribute("class", "cell unclicked");
     }
+    playerTurn = true;
 }
 
 function computerMove() {
