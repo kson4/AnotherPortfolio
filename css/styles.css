@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     text-align: center;
     padding-top: 10px;
@@ -14,6 +18,7 @@
     text-decoration: none;
     padding-left: 30px;
     color: black;
+    font-size: 25px;
 }
 
 .about {
@@ -27,7 +32,7 @@
 .about img {
     height: 300px;
     width: auto;
-    margin: 0 75px 0 75px;
+    margin: 0 75px 0 300px;
 }
 
 .about .top {
@@ -36,7 +41,8 @@
 }
 
 .about .bottom {
-    margin-right: 100px;
+    margin-right: 300px;
+    font-size: 25px;
 }
 
 .skills {
@@ -111,6 +117,10 @@
     align-items: center;
     gap: 30px;
     background-color: lightgray;
+}
+
+.projects .title {
+    font-size: 25px;
 }
 
 .projects div {
