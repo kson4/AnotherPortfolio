@@ -119,23 +119,27 @@ p, a {
     background-color: lightgray;
 }
 
-.projects .title {
-    font-size: 25px;
+.projects .title, p {
+    font-size: 30px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.projects-list p {
+    text-align: center;
 }
 
 .projects div {
     height: auto;
-    width: 200px;
+    width: 300px;
 }
 
 .projects img {
     width: auto; 
-    height: 150px;
-}
-
-.tictactoe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 300px;
 }
