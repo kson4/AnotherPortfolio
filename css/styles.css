@@ -117,6 +117,7 @@ p, a {
     align-items: center;
     gap: 30px;
     background-color: lightgray;
+    padding: 30px 0 30px 0;
 }
 
 .projects .title, p {
