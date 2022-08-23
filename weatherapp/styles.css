@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.weather-location {
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-bottom: 350px;
+    padding-left: 50px;
+    color: black;
+}
+
+.weather-icon {
+    height: 300px;
+    width: 300px;
+}
+
+.weather-description {
+    font-size: 30px;
+}
+
+.weather-degrees {
+    font-size: 35px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    height: 100%;
+    width: 500px;
+    justify-content: center;
+    color: black;
+}
+
+.right-container img {
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+}
+
+.world-location, .humidity, .wind-speed {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 100px;
+    align-items: center;
+}
